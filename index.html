@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+        Author: Nicholas Schoessling
+        Class:  Software Engineering
+        Project: Lab 2 / Dice Game
+        Description: This is my Dice Game application and is being submitted as part of Lab 2.
+        -->
+        <title>Nicholas Schoessling's monopoly dice game</title>
+        <link rel = "stylesheet" href="diceRoll.css">
+        <script src="diceRoll.js"></script>
+    </head>
+    <body onload = "RollDice()"> <!-- onloads my function so it starts a roll when you load the page -->
+        <!-- Loading the header image -->
+        <img src="monopoly.png" alt="Monopoly Man" class="center">
+        <h1>Nicholas's Monopoly Game Dice Roller</h1>
+        <p>Welcome to my Dice Roller application.  To find out how many spaces you should move in Monopoly, click the Roll Dice Button</p>
+        <button type="button" onclick="RollDice()" autofocus>Roll Dice</button><br><br> <!-- Autofocuses the button so you can just keep pressing enter to reroll -->
+        <!-- Three bodies of text showing the results -->
+        <h4>First Die: </h4><input id="dice1" type="text" value="" size="5" disabled><br><br>
+        <h4>Second Die: </h4><input id="dice2" type="text" value="" size="5" disabled><br><br>
+        <h4>Spaces you move forward: </h4><input id="sumID" type="text" value="" size="5" disabled><br><br>
+    </body>
+</html> 

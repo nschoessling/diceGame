@@ -1,0 +1,21 @@
+body {
+    background-color: #D8E2DC;
+}
+h1 {
+    color: #F40000;
+    text-align: center;
+}
+h4 {
+    color: #F4796B;
+}
+p {
+    color: #F44E3F;
+    text-align: center;
+}
+.center {
+    /*Function that makes sure the image is centered*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
